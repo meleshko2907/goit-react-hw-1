@@ -1,0 +1,34 @@
+.wrapper{
+   margin-top: 30px;
+   max-width: 600px;
+   margin-bottom: 50px;
+}
+
+.table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.mainWrapper{
+    gap: 0px;
+}
+
+.main{
+   border:  1px solid black;
+   color: white;
+   background-color: rgb(43, 41, 41);
+}
+.dataWrapper{
+    flex-direction: column;
+}
+
+.data{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.dataWrapper:nth-child(2n){
+    background-color: gray;
+}
