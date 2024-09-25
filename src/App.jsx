@@ -1,4 +1,4 @@
-import FriendList from "./components/FriendList/FriendListItem";
+import FriendList from "./components/FriendList/FriendList";
 import Profile from "./components/Profile/Profile";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import friends from "./friends.json";
